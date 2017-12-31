@@ -10,7 +10,7 @@ Adobe Illustrator CC 2018データ
 ### セットアップ
 gulpを使います。  
 Node.jsをインストールしていない場合はインストールしてください。  
-[Node.js](https://nodejs.org/ja/)
+[Node.jsのインストール](https://nodejs.org/ja/)
 
 gulpのインストール  
 ```
