@@ -10,11 +10,11 @@ Adobe Illustrator CC 2018データ
 ### セットアップ
 
 #### Node.jsのインストール
-Node.jsをインストールしていない場合はインストールしてください。  
+Node.jsをインストールしていない場合はインストール。  
 [Node.jsのインストール](https://nodejs.org/ja/)
 
 #### gulpのインストール
-gulpをインストールしていない場合はインストールしてください。 
+gulpをインストールしていない場合はインストール。 
 ```
 npm install -g gulp-cli
 ```
@@ -41,10 +41,10 @@ npm rebuild [壊れてたモジュール名]
 Macに直接または、[MAMP](https://www.mamp.info/en/)等を使って[WordPress](https://ja.wordpress.org/download/)をインストールできるようにする。
 
 ##### コーディング
-デザインを元にリキッドデザインかつ、レスポンシブwebデザインでコーディングしていきます。
+デザインを元にリキッドデザインかつ、レスポンシブwebデザインでコーディングする。
 
 ##### WordPressテーマ化
-ブログとして機能するように、コーディングしたHTMLをWordPress化していきます。
+ブログとして機能するように、コーディングしたHTMLをWordPressテーマ化する。
 
 ###### 制作するファイル
 + index.php
