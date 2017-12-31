@@ -1,6 +1,6 @@
 # mita-blog
 
-水田・武田のコーディング練習用
+水田・武田のコーディング課題用
 
 ## デザインについて
 Adobe Illustrator CC 2018データ
@@ -8,14 +8,19 @@ Adobe Illustrator CC 2018データ
 ## 作業手順
 
 ### セットアップ
-gulpを使います。  
+
+#### Node.jsのインストール
 Node.jsをインストールしていない場合はインストールしてください。  
 [Node.jsのインストール](https://nodejs.org/ja/)
 
-gulpのインストール  
+### gulpのインストール
+gulpをインストールしていない場合はインストールしてください。 
 ```
 npm install -g gulp-cli
 ```
+
+### XAMP環境
+Macに直接または、[MAMP](https://www.mamp.info/en/)等を使って[WordPress](https://ja.wordpress.org/download/)をインストールできるようにする。
 
 ### コーディング
 デザインを元にリキッドデザインかつ、レスポンシブwebデザインでコーディングしていきます。
