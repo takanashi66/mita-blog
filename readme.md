@@ -8,8 +8,14 @@ Adobe Illustrator CC 2018データ
 ## 作業手順
 
 ### セットアップ
-gulpを使います。
-Node.jsをインストールしていない場合はインストールしてください。
+gulpを使います。  
+Node.jsをインストールしていない場合はインストールしてください。  
+[Node.js](https://nodejs.org/ja/)
+
+gulpのインストール  
+```
+npm install -g gulp-cli
+```
 
 ### コーディング
 デザインを元にリキッドデザインかつ、レスポンシブwebデザインでコーディングしていきます。
