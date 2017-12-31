@@ -7,6 +7,8 @@
 ## デザインについて
 Adobe Illustrator CC 2018データ
 
+[デザインデータ](https://github.com/takanashi66/mita-blog/tree/master/design)
+
 ## 作業手順
 
 ### セットアップ
