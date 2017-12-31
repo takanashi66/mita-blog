@@ -1,4 +1,4 @@
-# mita-blog
+# mita-blog 1月8日課題
 
 ![mita-blog](https://github.com/takanashi66/mita-blog/blob/master/htdocs/screenshot.png)
 
