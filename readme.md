@@ -1,6 +1,6 @@
 # mita-blog
 
-水田・武田のコーディング練習用
+水田・武田のコーディング課題用
 
 ## デザインについて
 Adobe Illustrator CC 2018データ
@@ -8,22 +8,45 @@ Adobe Illustrator CC 2018データ
 ## 作業手順
 
 ### セットアップ
-gulpを使います。  
-Node.jsをインストールしていない場合はインストールしてください。  
+
+#### Node.jsのインストール
+Node.jsをインストールしていない場合はインストール。  
 [Node.jsのインストール](https://nodejs.org/ja/)
 
-gulpのインストール  
+#### gulpのインストール
+gulpをインストールしていない場合はインストール。
 ```
 npm install -g gulp-cli
 ```
 
-### コーディング
-デザインを元にリキッドデザインかつ、レスポンシブwebデザインでコーディングしていきます。
+##### node moduleのインストール
 
-### WordPressテーマ化
-ブログとして機能するように、コーディングしたHTMLをWordPress化していきます。
+```
+npm install
+```
 
-#### 制作するファイル
+##### gulpの起動
+
+```
+gulp
+```
+
+##### モジュールが壊れていた場合
+
+```
+npm rebuild [壊れてたモジュール名]
+```
+
+##### XAMP環境
+Macに直接または、[MAMP](https://www.mamp.info/en/)等を使って[WordPress](https://ja.wordpress.org/download/)をインストールできるようにする。
+
+##### コーディング
+デザインを元にリキッドデザインかつ、レスポンシブwebデザインでコーディングする。
+
+##### WordPressテーマ化
+ブログとして機能するように、コーディングしたHTMLをWordPressテーマ化する。
+
+###### 制作するファイル
 + index.php
 + header.php
 + footer.php
@@ -32,24 +55,3 @@ npm install -g gulp-cli
 + page.php
 + 404.php
 + functions.php
-
-
-## セットアップ
-
-### node moduleのインストール
-
-```
-npm install
-```
-
-### gulpの起動
-
-```
-gulp
-```
-
-### モジュールが壊れていた場合
-
-```
-npm rebuild [壊れてたモジュール名]
-```
