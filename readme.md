@@ -1,5 +1,7 @@
 # mita-blog
 
+![mita-blog](https://github.com/takanashi66/mita-blog/blob/master/htdocs/screenshot.png)
+
 水田・武田のコーディング課題用
 
 ## デザインについて
