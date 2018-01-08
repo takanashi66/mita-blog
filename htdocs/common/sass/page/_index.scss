@@ -39,13 +39,16 @@ body{
   display: flex;
   flex-wrap: wrap;
   flex: 1;
-  
-  margin: 0 20px 0 -2%;
+  margin-right: 20px;
 }
 
 .article{
-  width: 48%;
-  margin: 0 0 20px 2%;
+  width: 49%;
+  margin-bottom: 20px;
+  
+  &:nth-of-type(odd){
+    margin-right: 2%;
+  }
   
   background-color: #fff;
   
@@ -100,8 +103,8 @@ body{
     background-color: #fff;
     text-align: center;
     color: $font-color;
-    width: 250px;
-    padding: .8em 1em;
+    max-width: 250px;
+    padding: .8em 1.5em;
     
     &:hover{
       opacity: .7;
@@ -110,6 +113,21 @@ body{
     &:not(:last-child){
       margin-right: 2%;
     }
+  }
+}
+
+
+
+
+.search_result{
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 20px;
+  
+  p{
+    font-size: 1.8rem;
+    padding: .8em 1em;
+    text-align: center;
   }
 }
 
@@ -265,6 +283,7 @@ body{
 
 .footer{
   background-color: #444;
+  margin-top: 30px;
   
   p{
     font-size: 1.4rem;
